@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.API", "EmailService.API\EmailService.API.csproj", "{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{61F8A15A-DAE8-4315-BEAD-49A96E701B0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{34194CFF-DAC0-4DC8-81FD-62CEDAB848E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.Common.Entities", "EmailService.Common.Entities\EmailService.Common.Entities.csproj", "{DA265C84-4B55-49E8-90F3-CA249419A31D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.Common.Contracts", "EmailService.Common.Contracts\EmailService.Common.Contracts.csproj", "{E3A93300-8009-469C-A871-E0FB6445FCD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{71795F4F-CBC5-4556-9B2D-967026F9FF5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.BLL.Logic", "EmailService.BLL.Logic\EmailService.BLL.Logic.csproj", "{7A08457A-1B3B-48F4-876D-E00FDE5AC988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.BLL.Logic.Contracts", "EmailService.BLL.Logic.Contracts\EmailService.BLL.Logic.Contracts.csproj", "{9B6AA066-12D2-42FD-B8AE-6187062E34CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA265C84-4B55-49E8-90F3-CA249419A31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA265C84-4B55-49E8-90F3-CA249419A31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA265C84-4B55-49E8-90F3-CA249419A31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA265C84-4B55-49E8-90F3-CA249419A31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A93300-8009-469C-A871-E0FB6445FCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A93300-8009-469C-A871-E0FB6445FCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A93300-8009-469C-A871-E0FB6445FCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A93300-8009-469C-A871-E0FB6445FCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A08457A-1B3B-48F4-876D-E00FDE5AC988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A08457A-1B3B-48F4-876D-E00FDE5AC988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A08457A-1B3B-48F4-876D-E00FDE5AC988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A08457A-1B3B-48F4-876D-E00FDE5AC988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6AA066-12D2-42FD-B8AE-6187062E34CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6AA066-12D2-42FD-B8AE-6187062E34CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6AA066-12D2-42FD-B8AE-6187062E34CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6AA066-12D2-42FD-B8AE-6187062E34CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57A3C3CD-B0E8-41C3-919C-10941BEE3C9E} = {34194CFF-DAC0-4DC8-81FD-62CEDAB848E6}
+		{DA265C84-4B55-49E8-90F3-CA249419A31D} = {61F8A15A-DAE8-4315-BEAD-49A96E701B0E}
+		{E3A93300-8009-469C-A871-E0FB6445FCD5} = {61F8A15A-DAE8-4315-BEAD-49A96E701B0E}
+		{7A08457A-1B3B-48F4-876D-E00FDE5AC988} = {71795F4F-CBC5-4556-9B2D-967026F9FF5A}
+		{9B6AA066-12D2-42FD-B8AE-6187062E34CE} = {71795F4F-CBC5-4556-9B2D-967026F9FF5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E373469-A206-44D7-9A1F-DC71523DFA66}
+	EndGlobalSection
+EndGlobal
